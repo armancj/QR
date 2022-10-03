@@ -36,31 +36,22 @@ import { User } from './entities/user.entity';
 import { GetUser } from '../auth/decorators/get-user.decorator';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import { ChangeProfilePasswordDto } from '../auth/dto/changeProfilePassword.dto';
-import { ApiNotAcceptableResponse } from '@nestjs/swagger/dist/decorators/api-response.decorator';
 import { RefreshAuthTokenDto } from './dto/RefreshAuthToken.dto';
-import { Auth } from '../common/decorators/api-swagger-consumer.decorator';
-import { UserRole } from '../common/enums/userRole';
-import { CustomResult } from '../common/dto/commonResult.dto';
-import { ChangePasswordDTO } from '../common/dto/changePasswordDTO.dto';
-import { EmailConfirmationService } from '../email-confirmation/email-confirmation.service';
 import { Roles } from '../auth/decorators/roles.decorator';
 import { changeAdminPasswordDto } from './dto/change-admin-password.dto';
 import { QueryUserDto } from './dto/query-user.dto';
 import JwtRefreshGuard from '../auth/guards/jwt-refresh.guard';
-import { TemplateEnum } from '../common/enums/template.enum';
 import { JwtPayload } from '../auth/strategies/jwt-payload.interface';
-import { isEmail } from 'class-validator';
-import { EmailDto } from '../email/dto/email.dto';
 import { UserDeactivatedGuard } from '../auth/guards/user-deactivated.guard';
 import { SendPreDataForRegisterDto } from './dto/send-pre-data-for-register.dto';
 import { ChangeEmailDto } from './dto/change-email.dto';
+import { Auth } from '../auth/decorators/api-swagger-consumer.decorator';
 
 @ApiTags('user')
 @Controller('user')
 export class UserController {
   constructor(
     private readonly userService: UserService,
-    private readonly emailConfirmationService: EmailConfirmationService,
   ) {}
 
   @Post()
