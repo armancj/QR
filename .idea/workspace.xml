@@ -1,72 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fca8535-6045-46e8-9a3d-a8b1db503916" name="Changes" comment="adding custom decorators">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nest-cli.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/auth.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/auth.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/auth.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/decorators/api-swagger-consumer.decorator.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/decorators/get-user.decorator.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/decorators/roles.decorator.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/dto/auth-validate.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/dto/changeProfilePassword.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/guards/email-confirmation.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/guards/jwt-auth.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/guards/jwt-refresh-mobile-app.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/guards/jwt-refresh.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/guards/roles.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/guards/user-deactivated.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/strategies/jwt-payload.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/strategies/jwt-refresh-token-mobile.strategy.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/strategies/jwt-refresh-token.strategy.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/strategies/jwt.strategy.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/strategies/local.strategy.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/app.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/constants.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/database-logger.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setting/dto/create-setting.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setting/dto/update-setting.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setting/entities/setting.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setting/entities/varsEnum.enum.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setting/setting.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setting/setting.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setting/setting.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setting/setting.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setting/setting.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/dto/RefreshAuthToken.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/dto/RefreshMobileAppAuthToken.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/dto/change-admin-password.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/dto/change-email.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/dto/create-user.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/dto/get-status-filter.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/dto/query-user.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/dto/send-pre-data-for-register.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/dto/update-user.dto.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/entities/en-tv-usa-email.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/entities/mobile-app.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/entities/user.entity.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/enum/email-type.enum.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/interface/syslog.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/pipes/task-status-validation.pipe.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/user.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/user.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/user.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/jest-e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    <list default="true" id="0fca8535-6045-46e8-9a3d-a8b1db503916" name="Changes" comment="deleting project">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +47,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\mandi\\Documents\\GitHub\\QR\\node_modules\\prettier",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\mandi\\Documents\\GitHub\\QR\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -155,7 +91,7 @@
       <workItem from="1662637061640" duration="17000" />
       <workItem from="1664808688001" duration="7133000" />
       <workItem from="1664830158874" duration="397000" />
-      <workItem from="1666015330535" duration="327000" />
+      <workItem from="1666015330535" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="adding firsts commit qr project">
       <created>1664810787220</created>
@@ -171,7 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664822668114</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="deleting project">
+      <created>1666015802692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666015802692</updated>
+    </task>
+    <task id="LOCAL-00004" summary="deleting project">
+      <created>1666016046975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666016046975</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +144,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adding firsts commit qr project" />
     <MESSAGE value="adding custom decorators" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding custom decorators" />
+    <MESSAGE value="deleting project" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleting project" />
   </component>
 </project>
